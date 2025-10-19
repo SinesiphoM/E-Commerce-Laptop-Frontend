@@ -15,4 +15,5 @@ export async function authFetch(endpoint, options = {}) {
   } catch (err) {
     throw new Error('Network error');
   }
+  
 }
